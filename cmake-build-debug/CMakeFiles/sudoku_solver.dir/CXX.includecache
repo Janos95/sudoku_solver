@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/janos/sudoku_solver/main.cpp
+iostream
+-
+array
+-
+vector
+-
+algorithm
+-
+optional
+-
+stack
+-
+cassert
+-
+

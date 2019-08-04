@@ -1,0 +1,88 @@
+[settings]
+    arch=x86_64
+    build_type=Release
+    compiler=gcc
+    compiler.libcxx=libstdc++11
+    compiler.version=8
+    os=Linux
+
+[requires]
+    opencv/4.Y.Z
+
+[options]
+
+
+[full_settings]
+    arch=x86_64
+    arch_build=x86_64
+    build_type=Release
+    compiler=gcc
+    compiler.libcxx=libstdc++11
+    compiler.version=8
+    os=Linux
+    os_build=Linux
+
+[full_requires]
+    eigen/3.3.7@conan/stable:5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9
+    jasper/2.0.14@conan/stable:a2fddf8afe8f4b31fbe54e9fe7a31d83c9d3cc48
+    libjpeg/9c@bincrafters/stable:1d877a3df840030e6a8abb74c5ffb9088d08b47a
+    libpng/1.6.37@bincrafters/stable:4f75e4b120320a9fb6ac0012242d9ac95d18b6f6
+    libtiff/4.0.9@bincrafters/stable:4f75e4b120320a9fb6ac0012242d9ac95d18b6f6
+    libwebp/1.0.0@bincrafters/stable:a4d73d2d4a03abfc1a36922919556dad5ab3d20d
+    opencv/4.1.0@conan/stable:8865466182f1c113c8a5f6572029fb69e8746547
+    openexr/2.3.0@conan/stable:d909c4944190493e85607253cc43cdffb6265757
+    protobuf/3.5.2@bincrafters/stable:56e0cf6d16ee57367a0661ab743f4e43b29223f8
+    zlib/1.2.11@conan/stable:1d877a3df840030e6a8abb74c5ffb9088d08b47a
+
+[full_options]
+    eigen:EIGEN_USE_BLAS=False
+    eigen:EIGEN_USE_LAPACKE=False
+    eigen:EIGEN_USE_LAPACKE_STRICT=False
+    jasper:fPIC=True
+    jasper:shared=False
+    libjpeg:fPIC=True
+    libjpeg:shared=False
+    libpng:api_prefix=None
+    libpng:fPIC=True
+    libpng:shared=False
+    libtiff:fPIC=True
+    libtiff:shared=False
+    libwebp:fPIC=True
+    libwebp:near_lossless=True
+    libwebp:shared=False
+    libwebp:swap_16bit_csp=False
+    libwebp:with_simd=True
+    opencv:carotene=False
+    opencv:contrib=False
+    opencv:cuda=False
+    opencv:dc1394=True
+    opencv:eigen=True
+    opencv:fPIC=True
+    opencv:gstreamer=False
+    opencv:gtk=None
+    opencv:jasper=True
+    opencv:jpeg=True
+    opencv:jpegturbo=False
+    opencv:nonfree=False
+    opencv:openexr=True
+    opencv:png=True
+    opencv:protobuf=True
+    opencv:shared=False
+    opencv:tiff=True
+    opencv:webp=True
+    openexr:fPIC=True
+    openexr:namespace_versioning=True
+    openexr:shared=False
+    protobuf:fPIC=True
+    protobuf:lite=False
+    protobuf:shared=False
+    protobuf:with_zlib=False
+    zlib:fPIC=True
+    zlib:minizip=False
+    zlib:shared=False
+
+[recipe_hash]
+
+
+[env]
+

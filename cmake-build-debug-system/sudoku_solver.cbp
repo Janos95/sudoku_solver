@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="sudoku_solver"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake-build-debug-system\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/janos/sudoku_solver/cmake-build-debug-system"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j28 -f &quot;/home/janos/sudoku_solver/cmake-build-debug-system/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j28 -f &quot;/home/janos/sudoku_solver/cmake-build-debug-system/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j28 -f &quot;/home/janos/sudoku_solver/cmake-build-debug-system/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j28 -f &quot;/home/janos/sudoku_solver/cmake-build-debug-system/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/janos/sudoku_solver/cmake-build-debug-system"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j28 -f &quot;/home/janos/sudoku_solver/cmake-build-debug-system/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j28 -f &quot;/home/janos/sudoku_solver/cmake-build-debug-system/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j28 -f &quot;/home/janos/sudoku_solver/cmake-build-debug-system/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j28 -f &quot;/home/janos/sudoku_solver/cmake-build-debug-system/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sudoku_solver">
+				<Option output="/home/janos/sudoku_solver/cmake-build-debug-system/bin/sudoku_solver" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/janos/sudoku_solver/cmake-build-debug-system/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/janos/.conan/data/opencv/4.1.0/conan/stable/package/965f7eaae06089a58966ce9b8c12f13fe7c5ea1f/include"/>
+					<Add directory="/home/janos/.conan/data/opencv/4.1.0/conan/stable/package/965f7eaae06089a58966ce9b8c12f13fe7c5ea1f/include/opencv4"/>
+					<Add directory="/home/janos/.conan/data/zlib/1.2.11/conan/stable/package/1d877a3df840030e6a8abb74c5ffb9088d08b47a/include"/>
+					<Add directory="/home/janos/.conan/data/libjpeg/9c/bincrafters/stable/package/1d877a3df840030e6a8abb74c5ffb9088d08b47a/include"/>
+					<Add directory="/home/janos/.conan/data/libtiff/4.0.9/bincrafters/stable/package/4f75e4b120320a9fb6ac0012242d9ac95d18b6f6/include"/>
+					<Add directory="/home/janos/.conan/data/libwebp/1.0.0/bincrafters/stable/package/a4d73d2d4a03abfc1a36922919556dad5ab3d20d/include"/>
+					<Add directory="/home/janos/.conan/data/libpng/1.6.37/bincrafters/stable/package/4f75e4b120320a9fb6ac0012242d9ac95d18b6f6/include"/>
+					<Add directory="/home/janos/.conan/data/jasper/2.0.14/conan/stable/package/a2fddf8afe8f4b31fbe54e9fe7a31d83c9d3cc48/include"/>
+					<Add directory="/home/janos/.conan/data/openexr/2.3.0/conan/stable/package/d909c4944190493e85607253cc43cdffb6265757/include/OpenEXR"/>
+					<Add directory="/home/janos/.conan/data/protobuf/3.5.2/bincrafters/stable/package/56e0cf6d16ee57367a0661ab743f4e43b29223f8/include"/>
+					<Add directory="/home/janos/.conan/data/eigen/3.3.7/conan/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/include/eigen3"/>
+					<Add directory="/home/janos/.conan/data/fmt/5.2.1/bincrafters/stable/package/56e0cf6d16ee57367a0661ab743f4e43b29223f8/include"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j28 -f &quot;/home/janos/sudoku_solver/cmake-build-debug-system/Makefile&quot;  VERBOSE=1 sudoku_solver"/>
+					<CompileFile command="/usr/bin/make -j28 -f &quot;/home/janos/sudoku_solver/cmake-build-debug-system/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j28 -f &quot;/home/janos/sudoku_solver/cmake-build-debug-system/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j28 -f &quot;/home/janos/sudoku_solver/cmake-build-debug-system/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sudoku_solver/fast">
+				<Option output="/home/janos/sudoku_solver/cmake-build-debug-system/bin/sudoku_solver" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/janos/sudoku_solver/cmake-build-debug-system/bin"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/janos/.conan/data/opencv/4.1.0/conan/stable/package/965f7eaae06089a58966ce9b8c12f13fe7c5ea1f/include"/>
+					<Add directory="/home/janos/.conan/data/opencv/4.1.0/conan/stable/package/965f7eaae06089a58966ce9b8c12f13fe7c5ea1f/include/opencv4"/>
+					<Add directory="/home/janos/.conan/data/zlib/1.2.11/conan/stable/package/1d877a3df840030e6a8abb74c5ffb9088d08b47a/include"/>
+					<Add directory="/home/janos/.conan/data/libjpeg/9c/bincrafters/stable/package/1d877a3df840030e6a8abb74c5ffb9088d08b47a/include"/>
+					<Add directory="/home/janos/.conan/data/libtiff/4.0.9/bincrafters/stable/package/4f75e4b120320a9fb6ac0012242d9ac95d18b6f6/include"/>
+					<Add directory="/home/janos/.conan/data/libwebp/1.0.0/bincrafters/stable/package/a4d73d2d4a03abfc1a36922919556dad5ab3d20d/include"/>
+					<Add directory="/home/janos/.conan/data/libpng/1.6.37/bincrafters/stable/package/4f75e4b120320a9fb6ac0012242d9ac95d18b6f6/include"/>
+					<Add directory="/home/janos/.conan/data/jasper/2.0.14/conan/stable/package/a2fddf8afe8f4b31fbe54e9fe7a31d83c9d3cc48/include"/>
+					<Add directory="/home/janos/.conan/data/openexr/2.3.0/conan/stable/package/d909c4944190493e85607253cc43cdffb6265757/include/OpenEXR"/>
+					<Add directory="/home/janos/.conan/data/protobuf/3.5.2/bincrafters/stable/package/56e0cf6d16ee57367a0661ab743f4e43b29223f8/include"/>
+					<Add directory="/home/janos/.conan/data/eigen/3.3.7/conan/stable/package/5ab84d6acfe1f23c4fae0ab88f26e3a396351ac9/include/eigen3"/>
+					<Add directory="/home/janos/.conan/data/fmt/5.2.1/bincrafters/stable/package/56e0cf6d16ee57367a0661ab743f4e43b29223f8/include"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j28 -f &quot;/home/janos/sudoku_solver/cmake-build-debug-system/Makefile&quot;  VERBOSE=1 sudoku_solver/fast"/>
+					<CompileFile command="/usr/bin/make -j28 -f &quot;/home/janos/sudoku_solver/cmake-build-debug-system/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j28 -f &quot;/home/janos/sudoku_solver/cmake-build-debug-system/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j28 -f &quot;/home/janos/sudoku_solver/cmake-build-debug-system/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/janos/sudoku_solver/cmake-build-debug-system"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j28 -f &quot;/home/janos/sudoku_solver/cmake-build-debug-system/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j28 -f &quot;/home/janos/sudoku_solver/cmake-build-debug-system/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j28 -f &quot;/home/janos/sudoku_solver/cmake-build-debug-system/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j28 -f &quot;/home/janos/sudoku_solver/cmake-build-debug-system/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/janos/sudoku_solver/src/sudoku.cpp">
+			<Option target="sudoku_solver"/>
+		</Unit>
+		<Unit filename="/home/janos/sudoku_solver/src/sudoku.h">
+			<Option target="sudoku_solver"/>
+		</Unit>
+		<Unit filename="/home/janos/sudoku_solver/src/sudoku_detection.cpp">
+			<Option target="sudoku_solver"/>
+		</Unit>
+		<Unit filename="/home/janos/sudoku_solver/src/sudoku_solver.cpp">
+			<Option target="sudoku_solver"/>
+		</Unit>
+		<Unit filename="/home/janos/sudoku_solver/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/janos/sudoku_solver/cmake-build-debug-system/conanbuildinfo.cmake">
+			<Option virtualFolder="CMake Files\cmake-build-debug-system\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

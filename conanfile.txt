@@ -1,0 +1,10 @@
+[requires]
+opencv/4.1.0@conan/stable
+fmt/5.2.1@bincrafters/stable
+
+
+[options]
+opencv:gtk=2
+
+[generators]
+cmake
