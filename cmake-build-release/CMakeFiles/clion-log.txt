@@ -1,4 +1,0 @@
-/home/janos/tools/clion-2018.3.3/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_C_COMPILER=/usr/bin/clang -DCMAKE_CXX_COMPILER=/usr/bin/clang++ -G "CodeBlocks - Unix Makefiles" /home/janos/sudoku_solver
--- Configuring done
--- Generating done
--- Build files have been written to: /home/janos/sudoku_solver/cmake-build-release

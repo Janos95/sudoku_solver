@@ -1,3 +1,0 @@
-/home/janos/sudoku_solver/cmake-build-debug-system/CMakeFiles/rebuild_cache.dir
-/home/janos/sudoku_solver/cmake-build-debug-system/CMakeFiles/sudoku_solver.dir
-/home/janos/sudoku_solver/cmake-build-debug-system/CMakeFiles/edit_cache.dir

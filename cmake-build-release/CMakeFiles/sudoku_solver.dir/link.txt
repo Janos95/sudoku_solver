@@ -1,1 +1,0 @@
-/usr/bin/clang++  -O3 -DNDEBUG   CMakeFiles/sudoku_solver.dir/src/main.cpp.o CMakeFiles/sudoku_solver.dir/src/sudokue_detection.cpp.o  -o sudoku_solver 
